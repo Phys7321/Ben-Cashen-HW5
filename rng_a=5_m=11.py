@@ -16,12 +16,11 @@ N = np.zeros(ngroups)
 Dev = np.zeros(ngroups)
 
 n0 = 100
-y = [1]
 for i in range(ngroups):
 
     N[i] = n0
-    x = rng(y[-1],n0)
-    y = rng(x[-1],n0)
+    x = rng(n0)
+    y = rng(n0)
     I[i] = 0.
     Nin = 0
     for j in range(n0):
