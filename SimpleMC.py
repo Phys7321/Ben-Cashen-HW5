@@ -46,4 +46,5 @@ pyplot.plot(N,Dev2,ls='-',c='green',lw=3,label='a = 5, m = 11 Deviation')
 pyplot.plot(N,1/np.sqrt(N),ls='-',c='blue',lw=3,label='1/sqrt(N)');
 pyplot.xscale('log')
 pyplot.yscale('log')
+pyplot.legend()
 pyplot.title('Simple MC')
